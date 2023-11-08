@@ -20,7 +20,14 @@ button {
     font-size: 16px;
 }
 
-.id
+.idle-btn-dark {
+    background-color: #030303;
+}
+
+.idle-btn-light {
+    background-color: #eb7565;
+}
+
 
 /* navigation */
 
