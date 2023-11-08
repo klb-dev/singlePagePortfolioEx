@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
+
+    /* font size */
+    --headingL: 56px;
+    --headingM: 40px;
+    --headingS: 32px;
+    --bodyM: 18px;
+
+    /* font weight */
+    --headingWBold: 700px;
+    --bodyWMed: 400px;
+
+
 }
 
 body {
@@ -44,13 +56,42 @@ button {
 
 /* navigation */
 
-#nav-container {
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 34px;
-    /* display: none; */
+    margin: 34px 0;
+
 }
+
+.top-nav {
+    display: none;
+}
+
+/* introductioni */
+
+.my-intro {
+    max-width:800px;
+    text-align: center;
+    padding: 23px;
+    margin: 23px auto;
+}
+
+.intro-title {
+    max-width: 70ch;
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 23px;
+}
+
+.intro-descript {
+    max-width: 51ch;
+    font-size: 18px;
+    color: #7a746e;
+    margin: 0 auto;
+}
+
+
 
 
 
