@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #FFF7F0;
+}
+
+/* buttons */
+
+button {
+    color: #FFF7F0; 
+    border: none;
+    padding: 14px 45px;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.id
+
+/* navigation */
+
+#nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 34px;
+    /* display: none; */
+}
+
+
+
+
+
