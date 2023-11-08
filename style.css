@@ -24,10 +24,23 @@ button {
     background-color: #030303;
 }
 
+.idle-btn-dark:hover,
+.idle-btn-dark:focus,
+.idle-btn-dark:active {
+    cursor: pointer;
+    background-color: #755cde;
+}
+
 .idle-btn-light {
     background-color: #eb7565;
 }
 
+.idle-btn-light:hover,
+.idle-btn-light:focus,
+.idle-btn-light:active {
+    cursor: pointer;
+    background-color: #f6a560;
+}
 
 /* navigation */
 
