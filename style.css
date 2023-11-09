@@ -8,6 +8,7 @@
     --headingL: 56px;
     --headingM: 40px;
     --headingS: 32px;
+    --headingW: 24px;
     --bodyM: 18px;
     --button: 16px;
 
@@ -19,6 +20,7 @@
     --fontColorH: #030303;
     --fontColorB: #7a746e;
     --fontColorBtn: #fff7f0;
+    --fontColorWork: #fff;
 
     /* button color - idle */
     --idleBtnDk: #030303;
@@ -115,50 +117,60 @@ button {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 24px;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.work-objects {
+    display: inline-block;
+    border-radius: 8px;
+    /* width: 354px; */
+    color: var(--fontColorWork);
+    font-size: var(--headingW);
+    font-weight: var(--headingWBold);
 }
 
 .work-graphic {
     background: var(--bgColorGD) url(assets/pattern-graphic-design.svg) no-repeat top 24px right 24px;
-    grid-row: 1/3;
-    height: 364px;
-    width: 365px;
-    border-radius: 8px;
+    grid-row: 1 / span 2;
 }
+
 
 .work-uiux {
     background: var(--bgColorUX) url(assets/pattern-ui-ux.svg) no-repeat top 24px right 24px;
     width: 164px;
     grid-column: 2/2;
     grid-row: 1/1;
-    border-radius: 8px;
+    height: 182px;
 }
 
 .work-apps {
     background: var(--bgColorApp) url(assets/pattern-apps.svg) no-repeat top 24px right 24px;
     width: 164px;
-    grid-column: 2/2;
     grid-row: 1/1;
-    margin: 0 auto;
-    border-radius: 8px;
+    grid-column: 2/2;
+    margin-left: 54%;
+    height: 182px;
 }
 
 .work-photography {
     background: var(--bgColorPhoto) url(assets/pattern-photography.svg) no-repeat top 24px right 24px;
-    width: 354px;
     border-radius: 8px;
-    
+    height: 182px;
 }
 
 .work-illustration {
     background: var(--bgColorIl) url(assets/pattern-illustrations.svg) no-repeat top 24px right 24px;
-    width: 354px;
-    border-radius: 8px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    height: 158px;
 }
 
 .work-motion {
     background: var(--bgColorMG) url(assets/pattern-motion-graphics.svg) no-repeat top 24px right 24px;
-    width: 354px;
-    border-radius: 8px;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    height: 158px;
 }
 
 
