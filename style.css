@@ -14,7 +14,24 @@
     --headingWBold: 700px;
     --bodyWMed: 400px;
 
+    /* font color */
+    --fontColorH: #030303;
+    --fontColorB: #7a746e;
+    --fontColorBtn: #fff7f0;
 
+    /* button color - idle */
+    --idleBtnDk: #030303;
+    --idleBtnLt: #eb7565;
+    --hoverBtnDk: #755cde;
+    --hoverBtnLt: #f6a560;
+    
+    /* bg color for work images */
+    --bgColorGD: #755cde;
+    --bgColorUX: #f6a560;
+    --bgColorApp: #f39e9e;
+    --bgColorPhoto: #61c4b7;
+    --bgColorIl: #eb7565;
+    --bgColorMG: #552049;
 }
 
 body {
